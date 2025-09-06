@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujo Simple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Dibujo Simple</h1>
+        
+        <div class="tools">
+            <div class="colors">
+                <div class="color-option active" data-color="#000000" style="background-color: #000000;" title="Negro"></div>
+                <div class="color-option" data-color="#FF0000" style="background-color: #FF0000;" title="Rojo"></div>
+                <div class="color-option" data-color="#00FF00" style="background-color: #00FF00;" title="Verde"></div>
+                <div class="color-option" data-color="#0000FF" style="background-color: #0000FF;" title="Azul"></div>
+                <div class="color-option" data-color="#FFFF00" style="background-color: #FFFF00;" title="Amarillo"></div>
+                <div class="color-option" data-color="#FF00FF" style="background-color: #FF00FF;" title="Magenta"></div>
+                <div class="color-option" data-color="#00FFFF" style="background-color: #00FFFF;" title="Cian"></div>
+                <div class="color-option" data-color="#FFA500" style="background-color: #FFA500;" title="Naranja"></div>
+                <div class="color-option" data-color="#800080" style="background-color: #800080;" title="Púrpura"></div>
+                <div class="eraser" id="eraser" title="Goma">🧽</div>
+            </div>
+        </div>
+        
+        <div class="canvas-container">
+            <canvas id="drawingCanvas" width="600" height="400"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
